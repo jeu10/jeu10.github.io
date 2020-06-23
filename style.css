@@ -1,0 +1,14 @@
+.affichage{
+  white-space: nowrap;
+  float: left;
+  padding: 10px;
+  border: 2px solid gray;
+  margin:2px
+}
+
+body{
+  font-family:cursive;
+}
+#historiqueScores li{
+
+}

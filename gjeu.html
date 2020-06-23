@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="style.css" rel="stylesheet"></link>
+<style>
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body onload="startGame()">
+    <div id="ControlPane">
+      <div class="affichage" id="restart">Restart</div>
+      <div class="affichage" id="score">Score</div>
+      <div class="affichage" id="scoreMax">Max</div>
+      <div class="affichage" id="scoreMoyen">Moyenne</div>
+      <div class="affichage" id="Nbparties">Nbparties
+      </div>
+    </div>
+    <div style="text-align:center;width:480px;">
+  <button id="up" onmousedown="move('up')" onmouseup="clearmove()" ontouchstart="move('up')">UP</button><br><br>
+
+</div>
+
+<ul id="historiqueScores">
+</ul>
+    <script src="jeu.js"></script>
+</body>
+</html>
